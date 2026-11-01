@@ -1,0 +1,7 @@
+{
+  "item.pohtomc.url_painting": "URL Painting",
+  "item.pohtomc.url_painting.tooltip": "Place on a wall and right-click to set an image URL",
+  "entity.pohtomc.url_painting": "URL Painting",
+  "gui.pohtomc.url_painting.title": "URL Painting Settings",
+  "gui.pohtomc.url_painting.url_label": "Image URL"
+}

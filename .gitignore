@@ -1,0 +1,36 @@
+# Gradle files
+.gradle/
+build/
+
+# Fabric Loom run directory and caches
+.fabric/
+run/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+bin/
+
+# Built jars
+*.jar
+
+# Scratch and agent files
+.agents/
+.DS_Store
+Thumbs.db
+
+# Decompilation and extraction scratch
+decompiled_raw/
+extracted_jar/
+mappings/
+mappings.jar
+mappings.tiny
+tools/
+*.cs
+*.ps1

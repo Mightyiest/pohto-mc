@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "pohtomc",
+	"version": "1.0.9",
+	"name": "PohtoMC - URL Image Paintings",
+	"description": "Right-click any vanilla painting to display .png and .jpg images from a URL with in-game size, aspect ratio, and multiplayer lock settings. Unmodded players can still join the server.",
+	"authors": [
+		"PohtoMC"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pohtomc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pohtomc.PohtoMcMod"
+		],
+		"client": [
+			"com.pohtomc.client.PohtoMcClient"
+		]
+	},
+	"mixins": [
+		"pohtomc.mixins.json",
+		{
+			"config": "pohtomc.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

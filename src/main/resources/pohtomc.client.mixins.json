@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.pohtomc.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"PaintingRenderStateMixin",
+		"PaintingRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
